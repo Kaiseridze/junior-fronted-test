@@ -1,0 +1,17 @@
+.btn {
+	margin-top: 15px;
+	background: #4b51ef;
+	color: #ffffff;
+	border-radius: 10px;
+	padding: 6px 15px;
+	font-size: 15px;
+	border: none;
+	cursor: pointer;
+}
+.btn:hover {
+	transform: translateZ(-15%);
+}
+
+.btn:focus {
+	box-shadow: 1px 2px 1px 2px rgba(0, 0, 0, 0.2);
+}
