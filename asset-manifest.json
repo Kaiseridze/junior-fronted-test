@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/junior-fronted-test/static/css/main.bc33acf1.css",
+    "main.js": "/junior-fronted-test/static/js/main.dc1cc48c.js",
+    "index.html": "/junior-fronted-test/index.html",
+    "main.bc33acf1.css.map": "/junior-fronted-test/static/css/main.bc33acf1.css.map",
+    "main.dc1cc48c.js.map": "/junior-fronted-test/static/js/main.dc1cc48c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bc33acf1.css",
+    "static/js/main.dc1cc48c.js"
+  ]
+}
