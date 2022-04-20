@@ -26,7 +26,6 @@ const Index: FC<Iinput> = ({
 	website,
 	active,
 }) => {
-
 	return (
 		<>
 			<form className={active ? `input_container` : "input_container disabled"}>
@@ -38,8 +37,7 @@ const Index: FC<Iinput> = ({
 					city={city}
 					zipcode={zipcode}
 					phone={phone}
-					website={website}>
-					</InputForm>
+					website={website}></InputForm>
 			</form>
 		</>
 	)

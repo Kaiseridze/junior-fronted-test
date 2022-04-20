@@ -1,7 +1,19 @@
-import React from "react"
+import React, {FC} from "react"
 import { useForm, Controller } from "react-hook-form"
 
-function Index({
+interface IinputForm {
+	children?: React.ReactNode | React.ReactChild
+	name: string
+	username: string
+	email: string
+	street: string
+	city: string
+	zipcode: string
+	phone: string
+	website: string
+}
+
+const Index: FC<IinputForm> =({
 	name,
 	username,
 	email,
@@ -10,7 +22,7 @@ function Index({
 	zipcode,
 	phone,
 	website,
-}: any) {
+}) => {
 	const {
 		register,
 		formState: { errors },
