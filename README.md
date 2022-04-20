@@ -1,6 +1,6 @@
 # Test task for RooX Solutions
 
-*Watch demo* https://kaiseridze.github.io/junior-fronted-test/users/1
+*Watch demo* https://kaiseridze.github.io/junior-fronted-test
 
 Stack:
 * React
